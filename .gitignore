@@ -4,6 +4,12 @@ target/
 *.war
 *.class
 
+# Node.js & Frontend
+node_modules/
+dist/
+.vite/
+*.local
+
 # IDE & Editor files
 .idea/
 *.iml
@@ -16,3 +22,6 @@ target/
 Thumbs.db
 *.log
 tmp/
+
+# Test files
+test-images/
