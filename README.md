@@ -148,12 +148,16 @@ npm run dev
 ## 📸 Screenshots
 
 ### URL Scanner Interface
-![URL Scanner](./docs/screenshots/url-scanner.png)
-*Real-time URL threat analysis with risk scoring*
+![URL Scanner Interface](./docs/screenshots/url-scanner-interface.png)
+*Clean, modern interface with glassmorphism design*
 
-### Risk Assessment Results
-![Risk Results](./docs/screenshots/risk-results.png)
-*Detailed security indicators and recommendations*
+### Safe URL Result
+![Safe URL Result](./docs/screenshots/safe-url-result.png)
+*Google.com analysis showing SAFE risk level with green indicators*
+
+### Suspicious URL Result
+![Suspicious URL Result](./docs/screenshots/suspicious-url-result.png)
+*Phishing URL detection with WARNING/BLOCKED risk level and detailed risk factors*
 
 ---
 
