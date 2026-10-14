@@ -145,19 +145,19 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-### URL Scanner Interface
+### 1. URL Scanner Interface
 ![URL Scanner Interface](./docs/screenshots/url-scanner-interface.png)
-*Clean, modern interface with glassmorphism design*
+*Clean, modern interface with glassmorphism design — input field, scan button, and purple gradient background*
 
-### Safe URL Result
+### 2. Safe URL Analysis (Google.com)
 ![Safe URL Result](./docs/screenshots/safe-url-result.png)
-*Google.com analysis showing SAFE risk level with green indicators*
+*Real-time scan showing SAFE status with green checkmark, low risk score, and security indicators*
 
-### Suspicious URL Result
+### 3. Suspicious URL Detection
 ![Suspicious URL Result](./docs/screenshots/suspicious-url-result.png)
-*Phishing URL detection with WARNING/BLOCKED risk level and detailed risk factors*
+*Phishing URL flagged with WARNING/BLOCKED status, risk factors, and recommendations for user safety*
 
 ---
 
