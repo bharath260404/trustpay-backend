@@ -12,5 +12,19 @@ public record QrScanResponse(
     double riskScore,       // 0.0 (Safe) to 1.0 (High Risk)
     String riskLevel,       // 'SAFE', 'WARNING', 'BLOCKED'
     Map<String, String> parsedParameters,
-    String warningMessage
+    String warningMessage,
+    
+    // NEW: Business Entity Detection
+    boolean businessFound,
+    String businessName,
+    String businessOwner,
+    String businessType,
+    String businessLocation,
+    boolean businessVerified,
+    
+    // NEW: Fake QR Detection
+    boolean isFakeQr,
+    String fraudStatus,     // 'LEGITIMATE', 'SUSPICIOUS', 'FAKE'
+    String[] fraudReasons,
+    String recommendation
 ) {}
